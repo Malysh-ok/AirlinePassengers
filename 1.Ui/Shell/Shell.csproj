@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <RootNamespace>Ui.$(MSBuildProjectName)</RootNamespace>
+        <ApplicationIcon>..\..\5.Infrastructure\AppComponents\Resources\Images\PlaneDeparture.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="..\..\LICENSE">
+            <Link>Links\LICENSE</Link>
+        </Content>
+        <Content Include="..\..\Passengers.json">
+          <Link>Links\Passengers.json</Link>
+        </Content>
+        <Content Include="..\..\ReadMe.txt">
+            <Link>Links\ReadMe.txt</Link>
+        </Content>
+        <Content Include="..\..\Задание для кандидата C# (ОВЕН).docx">
+            <Link>Links\Задание для кандидата C# (ОВЕН).docx</Link>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\2.App\ViewModels\ViewModels.csproj" />
+      <ProjectReference Include="..\..\4.DataAccess\Entities\Entities.csproj" />
+      <ProjectReference Include="..\..\5.Infrastructure\BaseComponents\BaseComponents.csproj" />
+      <ProjectReference Include="..\..\5.Infrastructure\WpfModule\CommonStyles\CommonStyles.csproj" />
+      <ProjectReference Include="..\..\5.Infrastructure\WpfModule\Components\Components.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\..\5.Infrastructure\AppComponents\Resources\Images\PlaneDeparture.ico">
+        <Link>PlaneDeparture.ico</Link>
+      </None>
+    </ItemGroup>
+
+</Project>

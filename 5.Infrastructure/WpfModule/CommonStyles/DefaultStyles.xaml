@@ -1,0 +1,16 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/CommonStyles;component/Buttons.xaml" />
+        <ResourceDictionary Source="/CommonStyles;component/Labels.xaml" />
+        <ResourceDictionary Source="/CommonStyles;component/Menus.xaml" />
+        <ResourceDictionary Source="/CommonStyles;component/StatusBars.xaml" />
+        <ResourceDictionary Source="/CommonStyles;component/DataGrids.xaml" />
+        <!-- <ResourceDictionary Source="/WpfStyles;component/Comboboxes.xaml" /> -->
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

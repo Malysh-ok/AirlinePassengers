@@ -1,0 +1,37 @@
+[
+  {
+    "DepartureTimestamp": "2023-09-28T14:01:33.4247579+03:00",
+    "FlightNumber": 100,
+    "LastName": "Иванов",
+    "FirstName": "Иван",
+    "MiddleName": null
+  },
+  {
+    "DepartureTimestamp": "2023-09-28T14:01:33.4248867+03:00",
+    "FlightNumber": 100,
+    "LastName": "Петров",
+    "FirstName": "Петр",
+    "MiddleName": null
+  },
+  {
+    "DepartureTimestamp": "2023-09-28T14:01:33.4248871+03:00",
+    "FlightNumber": 101,
+    "LastName": "Сидоров",
+    "FirstName": "Сидор",
+    "MiddleName": null
+  },
+  {
+    "DepartureTimestamp": "2023-09-28T14:01:33.4248872+03:00",
+    "FlightNumber": 101,
+    "LastName": "Павлова",
+    "FirstName": "Ольга",
+    "MiddleName": null
+  },
+  {
+    "DepartureTimestamp": "2023-09-28T14:01:33.4248873+03:00",
+    "FlightNumber": 102,
+    "LastName": "Алексеева",
+    "FirstName": "Ирина",
+    "MiddleName": null
+  }
+]

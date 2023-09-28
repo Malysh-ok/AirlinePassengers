@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <RootNamespace>App.$(MSBuildProjectName)</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\3.Domain\Models\Models.csproj" />
+      <ProjectReference Include="..\..\4.DataAccess\Entities\Entities.csproj" />
+      <ProjectReference Include="..\..\5.Infrastructure\AppComponents\AppExceptions\AppExceptions.csproj" />
+      <ProjectReference Include="..\..\5.Infrastructure\WpfModule\Components\Components.csproj" />
+    </ItemGroup>
+
+</Project>
